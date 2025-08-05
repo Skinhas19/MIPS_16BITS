@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_datapath_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_datapath" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="121970000fs"></ZoomStartTime>
+      <ZoomEndTime time="276651200fs"></ZoomEndTime>
+      <Cursor1Time time="122554000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="123"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="0" label="" />
+      <marker time="0" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_datapath/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/unit_control/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/reg_file/rs" type="array">
+      <obj_property name="ElementShortName">rs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/reg_file/rt" type="array">
+      <obj_property name="ElementShortName">rt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/reg_file/rd" type="array">
+      <obj_property name="ElementShortName">rd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/reg_file/dado_escrita" type="array">
+      <obj_property name="ElementShortName">dado_escrita[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dado_escrita[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/reg_file/registradores" type="array">
+      <obj_property name="ElementShortName">registradores[0:7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">registradores[0:7][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/ula/a1" type="array">
+      <obj_property name="ElementShortName">a1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/ula/a2" type="array">
+      <obj_property name="ElementShortName">a2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/ula/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[2:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/ula/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/ula/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/ula/resultX" type="array">
+      <obj_property name="ElementShortName">resultX[15:0]</obj_property>
+      <obj_property name="ObjectShortName">resultX[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/alu_out_reg/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/alu_out_reg/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/alu_out_reg/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/alu_out_reg/reg" type="array">
+      <obj_property name="ElementShortName">reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/alu_out_reg/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/mem/memoria_instrucao" type="array">
+      <obj_property name="ElementShortName">memoria_instrucao[0:64][15:0]</obj_property>
+      <obj_property name="ObjectShortName">memoria_instrucao[0:64][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/mem/memoria_dados" type="array">
+      <obj_property name="ElementShortName">memoria_dados[0:64][15:0]</obj_property>
+      <obj_property name="ObjectShortName">memoria_dados[0:64][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/PC/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/muxregdst/mux_in0" type="array">
+      <obj_property name="ElementShortName">mux_in0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_in0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/muxregdst/mux_in1" type="array">
+      <obj_property name="ElementShortName">mux_in1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_in1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/muxregdst/mux_ctl" type="logic">
+      <obj_property name="ElementShortName">mux_ctl</obj_property>
+      <obj_property name="ObjectShortName">mux_ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_datapath/uut/muxregdst/mux_out" type="array">
+      <obj_property name="ElementShortName">mux_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[2:0]</obj_property>
+   </wvobject>
+</wave_config>
